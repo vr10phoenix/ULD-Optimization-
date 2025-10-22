@@ -1,5 +1,5 @@
-#inlcude "Package.h"
-#inlcude <algorithm>
+#include "Package.h"
+#include <algorithm>
 using namespace std;
 
  Package :: Package(int p_id , double w , double h , double d , bool priority):
@@ -16,7 +16,7 @@ using namespace std;
      case 2 : out_width = height; out_height = width; out_depth = depth; break;
      case 3 : out_width = height; out_height = depth; out_depth = width; break;
      case 4 : out_width = depth; out_height = height; out_depth = width; break;
-     case 5 : out_widt = depth; out_heigth = width; out_depth = height; break;
+     case 5 : out_width = depth; out_height = width; out_depth = height; break;
 
      default : out_width = width; out_height = height; out_depth = depth; break;
 
