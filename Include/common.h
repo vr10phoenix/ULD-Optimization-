@@ -1,4 +1,4 @@
-#indef COMMON_H
+#infdef COMMON_H
 #define COMMON_H
 
 #inlcude <vector>
