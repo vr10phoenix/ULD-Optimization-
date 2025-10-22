@@ -3,8 +3,8 @@
 
 #inlcude <vector>
 #include<algorithm>
-#inlcude<cmath>
-#inlcude<limits>
+#include<cmath>
+#include<limits>
 #include<string>
 
 // requireed Constants : 
